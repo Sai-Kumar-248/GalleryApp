@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.gallery{
+    width: 100%;
+    height: auto;
+    border: 2px solid;
+    padding: 20px;
+}
+.h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.img-container{
+    width: 100%;
+    height: auto;
+    font-size: 0px;
+}
+.img-container img{
+    width:20%;
+    height: auto;
+    border: 2px solid;
+}
+.img-container img:hover{
+    border: 2px solid blue;
+}
